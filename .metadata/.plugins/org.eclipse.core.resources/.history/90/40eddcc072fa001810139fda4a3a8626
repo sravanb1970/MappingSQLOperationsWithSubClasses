@@ -1,0 +1,32 @@
+package com.JDBC.DAO;
+
+import java.util.List;
+
+public class StudentDAOImpl implements StudentDAO {
+
+	@Override
+	public void createStudent(Student s) {
+		
+	}
+
+	@Override
+	public Student getStudentById(int studentId) {
+		return null;
+	}
+
+	@Override
+	public void updateStudentByEmail(String newEmail, Integer studentId) {
+		
+	}
+
+	@Override
+	public void deleteStudent(int studentId) {
+		
+	}
+
+	@Override
+	public List<Student> getAllStudents() {
+		return null;
+	}
+
+}

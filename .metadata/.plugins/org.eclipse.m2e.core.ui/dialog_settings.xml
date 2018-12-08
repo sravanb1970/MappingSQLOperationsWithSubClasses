@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.citibank.client"/>
+			<item value="com.JDBC.DBUtil"/>
+			<item value="com.ConnectionPoolingExample.ConnectionPoolingExample"/>
+			<item value="com.StudentApplication"/>
+			<item value="com.Springjdbc.LayeredExample.LayeredJDBCApplication"/>
+			<item value="com.Springjdbc.BatchUpdates.com.spring.batchUpdates"/>
+			<item value="com.Springjdbc.allActions.SpringJDBCApplicationWithCRUDOperations"/>
+		</list>
+		<list key="groupId">
+			<item value="com.citibank"/>
+			<item value="com.JDBC"/>
+			<item value="com.ConnectionPoolingExample"/>
+			<item value="com.StudentApplication"/>
+			<item value="com.Springjdbc.LayeredExample"/>
+			<item value="com.Springjdbc.BatchUpdates"/>
+			<item value="com.Springjdbc.allActions"/>
+		</list>
+		<list key="artifactId">
+			<item value="EmployeeDetailsWithSpringJDBC"/>
+			<item value="JDBCPreparedStatement"/>
+			<item value="ConnectionPoolingExample"/>
+			<item value="StudentApplication"/>
+			<item value="LayeredJDBCApplication"/>
+			<item value="com.spring.batchUpdates"/>
+			<item value="SpringJDBCApplicationWithCRUDOperations"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="1.0-SNAPSHOT"/>
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

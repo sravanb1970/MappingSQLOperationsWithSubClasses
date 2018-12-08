@@ -1,0 +1,40 @@
+package com.spring.jdbctemplate;
+
+import java.util.Map;
+
+public class DBOperationsDAO implements DBOperations{
+
+	private static final String insertQuery="insert into employee values(?,?,?,?,?)";
+	
+//	private static final String updateQuery="update employee set into employee values(?,?,?,?,?)";
+	private static final String selectQuery="select * from employee";
+	private static final String selectEmpSalaaryQuery="select * from employee where sal=?";
+	private static final String insertQuery="insert into employee values(?,?,?,?,?)";
+	
+	
+	public int insert(Employee e) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int getSalary(int no) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public Map<String, Object> listEmpDetails() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public int deleteEmp(int no) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int updateEmpSalary(int no, int newSal) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

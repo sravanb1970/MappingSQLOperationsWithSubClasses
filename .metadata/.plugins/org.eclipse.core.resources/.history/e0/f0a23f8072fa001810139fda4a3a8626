@@ -1,0 +1,37 @@
+package com.JDBC.DAO;
+
+import java.util.List;
+
+public class StudentDAOImpl implements StudentDAO {
+
+	@Override
+	public void createStudent(Student s) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Student getStudentById(int studentId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void updateStudentByEmail(String newEmail, Integer studentId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteStudent(int studentId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Student> getAllStudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

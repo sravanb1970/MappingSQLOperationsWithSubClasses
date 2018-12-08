@@ -1,0 +1,5 @@
+package com.citibank.DAO;
+
+public interface EmployeeDAO {
+
+}

@@ -1,0 +1,38 @@
+package com.JDBC.DAO;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.util.List;
+
+import com.JDBC.DBUtil.DBUtil;
+
+public class StudentDAOImpl implements StudentDAO {
+
+	private static final String INSERT="INSERT INTO MBASTUDENT(NAME, EMAIL, SUBJECT, YEAR) VALUES(?,?,?,?)";
+	@Override
+	public void createStudent(Student s) {
+try(Connection con=DBUtil.getConnection();PreparedStatement st=con.prepareStatement(INSERT));
+		
+	}
+
+	@Override
+	public Student getStudentById(int studentId) {
+		return null;
+	}
+
+	@Override
+	public void updateStudentByEmail(String newEmail, Integer studentId) {
+		
+	}
+
+	@Override
+	public void deleteStudent(int studentId) {
+		
+	}
+
+	@Override
+	public List<Student> getAllStudents() {
+		return null;
+	}
+
+}

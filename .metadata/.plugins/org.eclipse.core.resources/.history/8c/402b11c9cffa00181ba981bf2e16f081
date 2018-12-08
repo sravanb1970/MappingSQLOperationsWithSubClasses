@@ -1,0 +1,45 @@
+package com.citibank.DAOImpl;
+
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.citibank.DAO.EmployeeDAO;
+import com.citibank.model.Employee;
+
+public class EmployeeDAOImpl implements EmployeeDAO{
+private DataSource dataSource;
+private JdbcTemplate jdbcTemplate;
+
+	public void setDataSource(DataSource dataSource) {
+	this.dataSource = dataSource;
+this.jdbcTemplate	=new JdbcTemplate(dataSource);
+}
+
+public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+	this.jdbcTemplate = jdbcTemplate;
+}
+
+	public void createEmployee(Employee e) {
+		
+	}
+
+	public void updateEmployeeById(int eId) {
+		
+	}
+
+	public void deleteEmployeeById(int eId) {
+		
+	}
+
+	public Employee getEmployeeById(int eId) {
+		return null;
+	}
+
+	public List<Employee> getAllEmployees() {
+		return null;
+	}
+
+}

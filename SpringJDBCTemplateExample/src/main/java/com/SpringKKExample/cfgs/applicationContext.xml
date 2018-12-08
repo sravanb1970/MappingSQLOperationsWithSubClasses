@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="drds" class="BasicDataSource">
+		<property name="driverClassName"
+			value="com.mysql.cj.jdbc.Driver" />
+		<property name="url"
+			value="jdbc:mysql://localhost:3306/sakila?useSSL=false" />
+		<property name="username" value="springstudent" />
+		<property name="password" value="springstudent" />
+	</bean>
+<bean id="EmployeeService" class="com.SpringKKExample.Service.EmployeeService">
+<property name="employeeDao" ref="eDao"></property>
+</bean>
+<bean id="eDao" class="com.SpringKKExample.DAO.EmployeeDAOImpl">
+<property name="dataSource" ref="drds"></property>
+</bean>
+
+</beans>
+<!-- 	class="org.apache.commons.dbcp.BasicDataSource"		>
+
+class="org.springframework.jdbc.datasource.DriverManagerDataSource"> -->

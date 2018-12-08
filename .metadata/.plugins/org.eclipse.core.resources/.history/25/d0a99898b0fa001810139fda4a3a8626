@@ -1,0 +1,5 @@
+package com.citibank.Service;
+
+public interface EmployeeService {
+
+}

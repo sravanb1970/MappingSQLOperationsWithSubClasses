@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;SpringJDBCApplicationWithCRUDOperations&apos;&#x0D;&#x0A;- Original project: &apos;SpringJDBCApplicationWithCRUDOperations&apos;&#x0D;&#x0A;- Original element: &apos;SpringJDBCApplicationWithCRUDOperations/src/main/java/com.Springjdbc.allActions.SpringJDBCApplicationWithCRUDOperations&apos;" description="Delete element" element1="/src\/main\/java&lt;com.Springjdbc.allActions.SpringJDBCApplicationWithCRUDOperations" element2="/src\/main\/java&lt;com.Springjdbc.allActions" element3="/src\/main\/java&lt;com.Springjdbc" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1543254343713" subPackages="false" version="1.0"/>
+</session>

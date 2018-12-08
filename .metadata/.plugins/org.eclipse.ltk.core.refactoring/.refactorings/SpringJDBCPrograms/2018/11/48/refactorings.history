@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;spring-config.xml&apos; to &apos;SpringJDBCTemplateExample/src/main/java/com.SpringKKExample.cfgs&apos;&#x0D;&#x0A;- Original project: &apos;SpringJDBCPrograms&apos;&#x0D;&#x0A;- Destination element: &apos;SpringJDBCTemplateExample/src/main/java/com.SpringKKExample.cfgs&apos;&#x0D;&#x0A;- Original element: &apos;spring-config.xml&apos;" description="Copy file" destination="=SpringJDBCTemplateExample/src\/main\/java&lt;com.SpringKKExample.cfgs" element1="src/main/java/com/actor/spring-config.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1543183546546" units="0" version="1.0"/>
+</session>

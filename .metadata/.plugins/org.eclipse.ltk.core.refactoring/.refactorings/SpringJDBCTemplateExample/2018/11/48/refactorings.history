@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringJDBCTemplateExample/src/main/java/com/SpringKKExample/cfgs/spring-config.xml&apos; to &apos;applicationContext.xml&apos;" description="Rename resource &apos;spring-config.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/SpringKKExample/cfgs/spring-config.xml" name="applicationContext.xml" stamp="1543183555392" updateReferences="true"/>
+</session>

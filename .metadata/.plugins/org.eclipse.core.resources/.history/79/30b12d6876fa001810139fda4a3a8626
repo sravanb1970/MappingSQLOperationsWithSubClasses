@@ -1,0 +1,16 @@
+package com.JDBC.DAO;
+
+public class TestClass {
+
+	public static void main(String[] args) {
+	Student s=new Student();
+	s.setName("John");
+	s.setEmail("nomail@gmail.com");
+	s.setSubject("finance");
+	s.setYear("2018");
+	StudentDAO dao=new StudentDAOImpl();
+	dao.createStudent(s);
+
+	}
+
+}
